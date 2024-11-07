@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite verbose="1" name="Luma Functional Test Suite">
+  <test name="Signup and Login Test">
+    <classes>
+      <class name="Tests.SignUpTest"/>
+      <class name="Tests.SignInTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="End to End Product Purchase Test">
+    <classes>
+      <class name="Tests.ProductPurchase"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Wish List Funtionality">
+    <classes>
+      <class name="Tests.WishList"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Add to Cart with Navigation Test">
+    <classes>
+      <class name="Tests.CartTest">
+      	<methods>
+      		<include name="addProductToCartWithNavigation"></include>
+      	</methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Add/Delete from Cart Test">
+    <classes>
+      <class name="Tests.CartTest">
+      	<methods>
+      		<include name="addAndDeleteProductFromCart"></include>
+      	</methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->
