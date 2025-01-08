@@ -35,7 +35,7 @@ To execute tests using the Surefire plugin, you can run the following Maven comm
 ```bash
 mvn clean test
 ```
-This will trigger the execution of all the tests and generate a test report in the ```/target/surefire-reports directory```.
+This will trigger the execution of all the tests and generate a test report in the ```/target/surefire-reports``` directory.
 ## Reports
 
 After running tests, the Surefire plugin generates an emailable HTML report located at: ```target/surefire-reports/emailable-report.html```
