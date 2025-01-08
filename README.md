@@ -1,6 +1,6 @@
 # Luma Test Automation Framework
 
-This repository contains a test automation framework built with Java, Maven, TestNG, and Selenium, designed for automated testing of the Luma web application. It also leverages Apache POI for reading and writing data to Excel files and uses the Maven Surefire plugin to manage test execution.
+This repository contains a test automation framework built with Java, Maven, TestNG, and Selenium, designed for automated testing of the [Luma web application](https://magento.softwaretestingboard.com/). This is an application specifically built for Web Automation. The framework leverages Apache POI for reading and writing data to and from Excel files and uses the Maven Surefire plugin to manage test execution.
 
 ## Features
 
