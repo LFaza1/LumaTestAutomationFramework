@@ -24,7 +24,7 @@ This repository contains a test automation framework built with Java, Maven, Tes
    ```
 2. **Install Dependencies**
    
-    Navigate to the project directory and run the following Maven command to install dependencies:
+    Navigate to the project directory and run the following Maven command to install the dependencies used in the project:
    ```bash
    mvn clean install -DskipTests
    ```
